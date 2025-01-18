@@ -2,7 +2,7 @@
 
 This is a "packer" program for JavaScript, intended for use in code golf. Given JavaScript source code as input, it will attempt to produce an equivalent program that uses fewer Unicode characters. However, the result will be longer in bytes, so it has little practical usage outside of code golf.
 
-This program is intended to be run with Node.js. To use the program, you can either:
+This program is intended to be run with Node.js. (It's also easy to modify it to run on other JS platforms: search for "process" and replace it with something else.) To use the program, you can either:
 * Edit the `to_pack` variable on the first line of `packer_21.js`, then run it with `node packer_21`
 * Put your program in the first argument on the command line: `node packer_21 "my code here"`
 
