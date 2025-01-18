@@ -10,7 +10,7 @@ By default, the program will print info on its attempts at packing. If you only 
 
 # How it works
 
-See a complete write-up at TODO. The general idea is given by the code
+See a complete write-up [here](https://www.luke-g.com/unicode-packing-in-javascript-the-21-plus-packer/). The general idea is given by the code
 
 ```eval(unescape(escape`packed_data`.replace(/uD./g,``)))```
 
