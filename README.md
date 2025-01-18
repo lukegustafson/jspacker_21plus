@@ -16,6 +16,10 @@ See a complete write-up at TODO. The general idea is given by the code
 
 This can achieve 2:1 packing (of ASCII source code) by exploiting the way Unicode surrogate pairs work. The 2:1-plus packer will try alternative regular expressions that sometimes allow 3:1 or even 4:1 packing of certain patterns.
 
+# Testing
+
+A small test suite is available and can be run by calling the function `run_tests()`.
+
 # License
 
 CC0. You may modify and distribute as you please.
